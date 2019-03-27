@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './slide-calculator/index';
 
 class App extends Component {
+
+  componentDidMount() {
+    const options = {
+      width: 350,
+      height: 100,
+      element: '#calculator'
+    }
+
+    const cal = new Calculator(options);
+    cal.render(); 
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+       <canvas id="calculator"></canvas> 
       </div>
     );
   }
