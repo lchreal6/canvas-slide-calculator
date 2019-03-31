@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/canvas-slide-calculator/build/precache-manifest.ad9608bd6b87f80dfe7b9c621de06a4e.js"
+  "/canvas-slide-calculator/build/precache-manifest.6f99dc23b0c72feb52f6d7a223d8482e.js"
 );
 
 workbox.clientsClaim();
