@@ -46,11 +46,11 @@ class Calculator {
     this.ctx.stroke();
 
     this.ctx.fillStyle = 'rgb(73, 128, 219)'
-    const arrowLineWidth = 10;
+    const arrowLineWidth = this.width * 0.02;
     const arrowLineHeight = arrowLineWidth * 0.70711;
     this.ctx.beginPath();
-    this.ctx.moveTo(midWidth - arrowLineWidth/ 2, arrowHeight);
-    this.ctx.lineTo(midWidth + arrowLineHeight/ 2, arrowHeight);
+    this.ctx.moveTo(midWidth - arrowLineWidth/ 2 + this.ctx.lineWidth / 2, arrowHeight);
+    this.ctx.lineTo(midWidth + arrowLineHeight/ 2 + this.ctx.lineWidth / 2, arrowHeight);
     this.ctx.lineTo(midWidth, arrowHeight - arrowLineHeight);
     this.ctx.closePath();
     this.ctx.fill();
