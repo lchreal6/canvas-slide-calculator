@@ -1,7 +1,6 @@
 {
   "name": "canvas-slide-calculator",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
