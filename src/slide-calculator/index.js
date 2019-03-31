@@ -88,10 +88,11 @@ class Calculator {
       const data = this.data[index];
       this.ctx.fillText(data, k, -scaleHeight - this.width * 0.0133);
 
-      if(k === 0) {
-        const selectIndex = (-startX + k)/this.columnWidth 
-        this.onSelect && this.onSelect(this.data[selectIndex])
+      let selectIndex = Math.round(-startX / this.columnWidth);  
+      if(-startX > this.columnWidth * this.columnLen) {
+        selectIndex = this.columnLen 
       }
+      this.onSelect && this.onSelect(this.data[selectIndex])
 
       for(let j = k; j < k + this.columnWidth; j = j + this.columnItemWidth) {
         if(-startX + j <= maxcolumn) {
@@ -144,14 +145,14 @@ class Calculator {
       endTime = new Date().getTime();
       const time = endTime - startTime;
       
-      if(time < 300) {
+      if(time < 250) {
         if(self.vx < - 0) {
-          self.scrollDistance = - self.columnWidth * self.columnLen * 20 * self.devicePixelRatio / time;
+          self.scrollDistance = - self.columnWidth * self.columnLen * 10 * self.devicePixelRatio / time;
           if(self.scrollDistance + self.offsetX <  -self.columnWidth * self.columnLen - self.width * 0.1) {
             self.scrollDistance = -self.columnWidth * self.columnLen - self.width * 0.1 - self.offsetX;
           }
         } else if (self.vx > 0) {
-          self.scrollDistance = self.columnWidth * self.columnLen * 20 * self.devicePixelRatio / time;
+          self.scrollDistance = self.columnWidth * self.columnLen * 10 * self.devicePixelRatio / time;
           if(self.scrollDistance + self.offsetX > self.width * 0.1) {
             self.scrollDistance = self.width * 0.1 - self.offsetX;
           }

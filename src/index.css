@@ -33,7 +33,30 @@ canvas {
 
 .index-tips {
   position: absolute;
-  top: 100px;
+  top: 210px;
   width: 100%;
   text-align: center;
+}
+.tips-title {
+  color: rgb(154, 154, 154);
+  font-size: 16px;
+}
+.tips-money {
+  color: #000;
+  font-size: 45px; 
+}
+
+.expect-amount {
+  position: absolute;
+  color: rgb(154, 154, 154);
+  font-size: 16px;
+  top: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.expect-money {
+  margin-top: 5px;
+  color: rgb(222, 82, 49);
+  font-size: 30px;
 }

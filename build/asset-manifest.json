@@ -1,13 +1,13 @@
 {
-  "main.css": "/canvas-slide-calculator/build/static/css/main.6f0fb511.chunk.css",
-  "main.js": "/canvas-slide-calculator/build/static/js/main.e3251876.chunk.js",
-  "main.js.map": "/canvas-slide-calculator/build/static/js/main.e3251876.chunk.js.map",
+  "main.css": "/canvas-slide-calculator/build/static/css/main.fd16d3a6.chunk.css",
+  "main.js": "/canvas-slide-calculator/build/static/js/main.bd77f14c.chunk.js",
+  "main.js.map": "/canvas-slide-calculator/build/static/js/main.bd77f14c.chunk.js.map",
   "runtime~main.js": "/canvas-slide-calculator/build/static/js/runtime~main.8ce8c1d4.js",
   "runtime~main.js.map": "/canvas-slide-calculator/build/static/js/runtime~main.8ce8c1d4.js.map",
   "static/js/2.242043d6.chunk.js": "/canvas-slide-calculator/build/static/js/2.242043d6.chunk.js",
   "static/js/2.242043d6.chunk.js.map": "/canvas-slide-calculator/build/static/js/2.242043d6.chunk.js.map",
   "index.html": "/canvas-slide-calculator/build/index.html",
-  "precache-manifest.6f99dc23b0c72feb52f6d7a223d8482e.js": "/canvas-slide-calculator/build/precache-manifest.6f99dc23b0c72feb52f6d7a223d8482e.js",
+  "precache-manifest.9d663b19417fd13dce8c6a39b2e28ca2.js": "/canvas-slide-calculator/build/precache-manifest.9d663b19417fd13dce8c6a39b2e28ca2.js",
   "service-worker.js": "/canvas-slide-calculator/build/service-worker.js",
-  "static/css/main.6f0fb511.chunk.css.map": "/canvas-slide-calculator/build/static/css/main.6f0fb511.chunk.css.map"
+  "static/css/main.fd16d3a6.chunk.css.map": "/canvas-slide-calculator/build/static/css/main.fd16d3a6.chunk.css.map"
 }
