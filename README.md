@@ -17,7 +17,7 @@ npm i canvas-slide-calculator --save
 import 
 
 ```js
-import Calcculator from "canvas-slide-calculator";
+import Calculator from "canvas-slide-calculator";
 ```
 
 ### Simple Demo
